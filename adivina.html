@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el numero</title>
+    <link rel = "stylesheet" href="./style.css">
+</head>
+<body>
+<h1 class="titulo">Adivina el numero</h1>
+<h2 class="subtitulo">Instrucciones: Selecciona un numero del 0 al 100. Puedes seleccionar cualquiera de estas dificultades: FACIL 9 intentos, MEDIO 7 intentos, DIFICIL 5 intentos, EXPERTO 4 intentos... </h2>
+<p class="goodluck">¡Buena Suerte!</p>
+<div class="diform">
+<label class="let" for="dif3">Ingresa la dificultad:</label>
+<input type="text" id="dif3" class="dif3">
+<input type="submit" value="Elegir dificultad" class="SendDif">
+</div>
+<div class="form">
+<p class="dificultad"></p>
+<label class="let" for="num1">Ingresa un numero del 0 al 100:</label>
+<input type="text" id="num1" class="num1">
+<input type="submit" value="Elegir numero" class="SendTrys">
+</div>
+<div class="resultados">
+    <p class="mensajeLost"></p>
+    <p class="intentos"></p>
+    <p class="resJuego"></p>
+</div>
+<script src="./Adivina.js"></script>
+</body>
+</html>
