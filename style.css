@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #181D31;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 46px;
+    color: black;
+}
+.subtitulo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #F0E9D2;
+}
+.goodluck{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #F0E9D2;
+}
+.SendDif{
+    background-color: #678983;
+}
+.SendTrys{
+    background-color: #678983;
+}
+.let{
+    color: #F0E9D2;
+}
+.dificultad{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #F0E9D2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resultados{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #F0E9D2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
